@@ -1,5 +1,6 @@
 from pytube import YouTube
 import sys
+import numpy as np
 if len(sys.argv) !=2:
 	print("Usage : python <filename.py> <video_url>")
 	sys.exit(1)
